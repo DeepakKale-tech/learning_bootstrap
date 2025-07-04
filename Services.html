@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
-     <a class="navbar-brand" href="#">
-      <img src="Images/ben10.jpg" alt="Bootstrap" width="30" height="24">
-      DKING
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Gallary
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Images/ben10.jpg" alt="Bootstrap" width="30" height="24">
+            DKING
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Images/bigtree.jpg" target="_blank">Photo</a></li>
-            <li><a class="dropdown-item" href="Images/ben10.jpg" target="_blank">Video</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active bg-info" href="services.html">Services</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="product.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="about.html">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Gallary
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Images/bigtree.jpg"
+                      target="_blank">Photo</a></li>
+                  <li><a class="dropdown-item" href="Images/ben10.jpg"
+                      target="_blank">Video</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bg-info"
+                  href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
       <!-- table starts -->
@@ -56,8 +65,9 @@
             <h2>Our Services</h2>
             <div class="col-md-6">
               <div class="table-responsive">
-                <table class="table table-primary table-striped table-hover table-bordered border-danger">
-                  <thead >
+                <table
+                  class="table table-primary table-striped table-hover table-bordered border-danger">
+                  <thead>
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">First</th>
@@ -65,13 +75,13 @@
                       <th scope="col">Handle</th>
                     </tr>
                   </thead>
-                  <tbody >
+                  <tbody>
                     <tr>
                       <th scope="row">1</th>
                       <td>Mark</td>
                       <td>Otto</td>
                       <td>@mdo</td>
-                     </tr>
+                    </tr>
                     <tr>
                       <th scope="row">2</th>
                       <td>Jacob</td>
@@ -93,7 +103,157 @@
         </div>
       </section>
       <!-- table ends -->
+      <!-- FAQ starts -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      How long does it take to download updates?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        The time required to download updates primarily depends
+                        on internet connection speed, network settings, and
+                        update size. Make sure your device is plugged in and
+                        connected to the internet to download updates faster.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      How can I stop updates from downloading and installing?
+                      Can I skip updates?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>You can’t stop updates entirely—because they help keep
+                        your device safe and secure, updates will eventually
+                        need to be installed and downloaded, regardless of your
+                        update settings. Here's how to temporarily pause updates
+                        from being downloaded and installed. Note that after the
+                        pause limit is reached, you'll need to install the
+                        latest updates before you can pause updates again.
+
+                        In Windows 11, select Start > Settings > Windows Update
+                        . Next to Pause updates, select the pause length you
+                        prefer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      How do I make sure my device restarts to install updates
+                      at a convenient time?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>To finish installing an update, your device will need
+                        to restart. Windows will try to restart your device when
+                        you're not using it. If it can't, you'll be asked to
+                        schedule the restart for a more convenient time. Or, you
+                        can schedule anytime by following these steps:
+
+                        1.Select Start > Settings > Windows Update .
+
+                        2.Select Schedule the restart and choose a time that's
+                        convenient for you.
+
+                        You can set active hours to make sure automatic restarts
+                        for updates only happen when you're not using your
+                        device. Keep your PC up to date with active hours.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapse4"
+                      aria-expanded="true" aria-controls="collapse4">
+                      What if I don't have enough disk space for the update?
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Try deleting files you don’t need, uninstalling apps
+                        you don’t use, or moving files to another drive like an
+                        external USB drive or OneDrive. For more tips on freeing
+                        up disk space, see Free up drive space in Windows.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapse5"
+                      aria-expanded="false" aria-controls="collapse5">
+                      How can I make sure updates don't use too much battery?
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>We recommend keeping devices like laptops and tablets
+                        plugged in when you’re not using them. This way, if
+                        updates are installed outside active hours, your device
+                        will have enough power to complete the installation.
+                        Windows updates don’t consume more battery than other
+                        typical system processes.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapse6"
+                      aria-expanded="false" aria-controls="collapse6">
+                      How do I see installed updates?
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>An update history is available so you can see which
+                        updates were installed, and when. You can also use this
+                        list to remove specific updates, although we don't
+                        recommend this unless it's necessary.
+
+                        Select Start > Settings > Windows Update > Update
+                        history .</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ ends -->
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

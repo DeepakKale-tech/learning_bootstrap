@@ -1,64 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
-     <a class="navbar-brand" href="#">
-      <img src="Images/ben10.jpg" alt="Bootstrap" width="30" height="24">
-      DKING
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Gallary
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Images/ben10.jpg" alt="Bootstrap" width="30" height="24">
+            DKING
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Images/bigtree.jpg" target="_blank">Photo</a></li>
-            <li><a class="dropdown-item" href="Images/ben10.jpg" target="_blank">Video</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active bg-info" href="product.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Gallary
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Images/bigtree.jpg"
+                      target="_blank">Photo</a></li>
+                  <li><a class="dropdown-item" href="Images/ben10.jpg"
+                      target="_blank">Video</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bg-info"
+                  href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <section class="mt-3 bg-danger-subtle">
+      <section class="mt-3">
         <div class="container">
           <div class="row mt-2">
             <div class="col-md-3">
               <div class="card m-1 bg-info " style="width: 16rem;">
                 <img src="Images/ben10.jpg" class="card-img-top" alt="ben10">
                 <div class="card-body">
-                  <h5 class="card-title">Ben 10</h5>
-                  <p class="card-text">Ben 10 is a popular animated series about a boy named Ben Tennyson who discovers a device called the Omnitrix that.. </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Cartoon</h5>
+                  <p class="card-text">A cartoon is a type of visual art that is
+                    typically drawn, frequently animated, in an unrealistic or
+                    semi-realistic style.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#cartoon">
+                    More Information
+                  </button>
                 </div>
               </div>
             </div>
@@ -67,8 +83,15 @@
                 <img src="Images/lib1.jpeg" class="card-img-top" alt="Library">
                 <div class="card-body">
                   <h5 class="card-title">Library</h5>
-                  <p class="card-text">A library is a collection of books, and possibly other materials and media, that is accessible for..</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A library is a collection of books, and
+                    possibly other materials and media, that is accessible
+                    for..</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#library">
+                    More Information
+                  </button>
                 </div>
               </div>
             </div>
@@ -77,25 +100,244 @@
                 <img src="Images/river.jpg" class="card-img-top" alt="river">
                 <div class="card-body">
                   <h5 class="card-title">River</h5>
-                  <p class="card-text">A river is a natural stream of water that flows along a channel towards another body of water like a lake, sea, or ocean. </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A river is a natural stream of water that
+                    flows along a channel towards another body of water like a
+                    lake, sea, or ocean. </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#river">
+                    More Information
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card m-1 bg-info" style="width: 16rem;">
-                <img src="Images/tiger.jpg" class="card-img-top" alt="Sunset">
+                <img src="Images/tiger.jpg" class="card-img-top" alt="Tiger">
                 <div class="card-body">
                   <h5 class="card-title">Tiger</h5>
-                  <p class="card-text">The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful..</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">The tiger (Panthera tigris) is a large
+                    cat and a member of the genus Panthera native to Asia. It
+                    has a powerful..</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#tiger">
+                    More Information
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-       </section>
+      </section>
+      <!-- Cartoon Modal -->
+      <div class="modal fade" id="cartoon" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Cartoon</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2>Cartoon</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 p-4">
+                    <img src="Images/bottle.jpg" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <p>
+                      <article>
+                        A cartoon is a type of visual art that is typically
+                        drawn, frequently animated, in an unrealistic or
+                        semi-realistic style. The specific meaning has evolved,
+                        but the modern usage usually refers to either: an image
+                        or series of images intended for satire, caricature, or
+                        humor; or a motion picture that relies on a sequence of
+                        illustrations for its animation. Someone who creates
+                        cartoons in the first sense is called a cartoonist,[1]
+                        and in the second sense they are usually called an
+                        animator.
+                      </article>
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="Images/flower.jpg" class="img-fluid">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="Images/flower.jpg" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cartoon modal end -->
+      <!-- Library Modal -->
+      <div class="modal fade" id="library" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Library</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2>Library</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 p-4">
+                    <img src="Images/school2.jpg" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <p>
+                      <article>
+                        A library is a collection of books, and possibly other
+                        materials and media, that is accessible for use by its
+                        members and members of allied institutions. Libraries
+                        provide physical (hard copies) or digital (soft copies)
+                        materials, and may be a physical location, a virtual
+                        space, or both. A library's collection normally includes
+                        printed materials which can be borrowed, and usually
+                        also includes a reference section of publications which
+                        may only be utilized inside the premises. Resources such
+                        as commercial releases of films, television programmes,
+                        other video recordings, radio, music and audio
+                        recordings may be available in many formats. These
+                        include DVDs, Blu-rays, CDs, cassettes, or other
+                        applicable formats such as microform. They may also
+                        provide access to information, music or other content
+                        held on bibliographic databases. In addition, some
+                        libraries offer creation stations for makers which offer
+                        access to a 3D printing station with a 3D scanner.
+                      </article>
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="Images/lib1.jpeg" class="img-fluid">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="Images/lib2.jpeg" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Library modal end -->
+      <!-- River Modal -->
+      <div class="modal fade" id="river" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">River</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2>River</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 p-4">
+                    <img src="Images/river.jpg" class="img-fluid  h-100">
+                  </div>
+                  <div class="col-md-8">
+                    <p>
+                      <article>
+                        A river is a natural stream of fresh water that flows on
+                        land or inside caves towards another body of water at a
+                        lower elevation, such as an ocean, lake, or another
+                        river. A river may run dry before reaching the end of
+                        its course if it runs out of water, or only flow during
+                        certain seasons. Rivers are regulated by the water
+                        cycle, the processes by which water moves around the
+                        Earth. Water first enters rivers through precipitation,
+                        whether from rainfall, the runoff of water down a slope,
+                        the melting of glaciers or snow, or seepage from
+                        aquifers beneath the surface of the Earth
+                      </article>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- River modal end -->
+      <!-- Tiger Modal -->
+      <div class="modal fade" id="tiger" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Tiger</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2>Tiger</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 p-4">
+                    <img src="Images/tiger.jpg" class="img-fluid h-auto w-auto">
+                  </div>
+                  <div class="col-md-8">
+                    <p>
+                      <article>
+                        The tiger (Panthera tigris) is a large cat and a member
+                        of the genus Panthera native to Asia. It has a powerful,
+                        muscular body with a large head and paws, a long tail
+                        and orange fur with black, mostly vertical stripes. It
+                        is traditionally classified into nine recent subspecies,
+                        though some recognise only two subspecies, mainland
+                        Asian tigers and the island tigers of the Sunda Islands.
+                      </article>
+                    </p>
+                    <img src="Images/tiger2.jpg" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tiger modal end -->
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
